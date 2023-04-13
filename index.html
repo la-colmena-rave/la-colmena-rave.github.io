@@ -1,0 +1,52 @@
+<!DOCTYPE html>
+<html>
+  <head>
+    <title>Colmena</title>
+    <link rel="stylesheet" href="style.css">
+  </head>
+  <body>
+
+    
+    <img src="./imagenes/AbejitaPng.png" class="abejita">
+    <img src="./imagenes/AbejitaPng.png" class="abejita2">
+    <img src="./imagenes/AbejitaPng.png" class="abejita3">
+    <img src="./imagenes/AbejitaPng.png" class="abejita4">
+    <img src="./imagenes/AbejitaPng.png" class="abejita5">
+    <img src="./imagenes/AbejitaPng.png" class="abejita6">
+    <img src="./imagenes/AbejitaPng.png" class="abejita7">
+    <img src="./imagenes/AbejitaPng.png" class="abejita8">
+    <img src="./imagenes/AbejitaPng.png" class="abejita9">
+    <img src="./imagenes/AbejitaPng.png" class="abejita10">
+    <div id="app">
+        
+      <h1>Registro en Colmena</h1>
+      <form id="registration-form">
+        <label for="name">Nombre</label>
+        <input type="text" id="name" name="name" required>
+    
+        <label for="email">Email</label>
+        <input type="email" id="email" name="email" required>
+    
+        <label for="password">Contraseña</label>
+        <input type="password" id="password" name="password" required>
+    
+        <label for="photo">Foto de perfil (Opcional)</label>
+        <input type="file" id="photo" name="photo" accept="image/*" >
+    
+        <button type="submit">Registro</button>
+      </form>
+    </div>
+
+    
+
+    <div id="registration-success-message" style="display: none;">
+        Registro exitoso
+      </div>
+      
+    
+    <!-- Firebase CDN -->
+    <script src="https://www.gstatic.com/firebasejs/8.4.3/firebase-app.js"></script>
+    <script src="https://www.gstatic.com/firebasejs/8.4.3/firebase-auth.js"></script>
+    <script src="index.js"></script>
+  </body>
+</html>

@@ -1,0 +1,420 @@
+/* Estilos generales */
+* {
+    box-sizing: border-box;
+    margin: 0;
+    padding: 0;
+    font-family: Arial, sans-serif;
+  }
+
+h1{
+    margin-bottom: 50px;
+    color: white;
+    text-shadow: 1px 5px 2px rgba(0,0,0,0.5), -1px -1px 2px rgba(255,255,255,0.5);
+      
+      
+      
+      
+}
+  
+  /* Estilos para el contenedor principal */
+  #app {
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    justify-content: center;
+    height: 100vh;
+    background-color: orange;
+    background-image: url('./imagenes/panalDeAbeja.jpg');
+    background-repeat: no-repeat;
+   background-size: cover;
+   background-position: center;
+  }
+  
+  /* Estilos para el formulario de registro */
+  #registration-form {
+    display: flex;
+    flex-direction: column;
+    align-items: left;
+    justify-content: center;
+    background-color: #fff;
+    border: 1px solid #ccc;
+    padding: 20px;
+    width: 400px;
+    border-radius: 5px;
+    box-shadow: 2px 2px 50px 15px orangered;
+  }
+  
+  /* Estilos para los campos de formulario */
+  label {
+    font-size: 1.2rem;
+    margin-bottom: 5px;
+  }
+  
+  input[type="text"],
+  input[type="email"],
+  input[type="password"] {
+    width: 100%;
+    padding: 10px;
+    margin-bottom: 15px;
+    border: 1px solid #ccc;
+    border-radius: 5px;
+    font-size: 1rem;
+    text-align: left; /* Alineación a la izquierda */
+  }
+  
+  input[type="file"] {
+    width: 100%;
+    padding: 10px;
+    margin-bottom: 15px;
+    border: none;
+    background-color: #f2f2f2;
+    color: #333;
+    border-radius: 5px;
+    font-size: 1rem;
+    text-align: left; /* Alineación a la izquierda */
+    cursor: pointer;
+  }
+  
+  input[type="file"]:hover {
+    background-color: #ddd;
+  }
+  
+  button[type="submit"] {
+    background-color: orange;
+    border: none;
+    color: #fff;
+    padding: 10px 20px;
+    margin-top: 10px;
+    font-size: 1.2rem;
+    cursor: pointer;
+    border-radius: 5px;
+  }
+  
+  button[type="submit"]:hover {
+    background-color: orangered;
+  }
+  
+  /* Estilos para el mensaje de éxito */
+  #registration-success-message {
+    display: none;
+    background-color: #d4edda;
+    color: #155724;
+    border: 1px solid #c3e6cb;
+    padding: 10px;
+    margin-top: 20px;
+    border-radius: 5px;
+  }
+
+.abejita{
+    position: absolute;
+    z-index: 100;
+    margin-top: 100px;
+    width: 200px;
+    animation-name: abejita;
+    animation-duration: 3s;
+    animation-iteration-count: infinite;
+}
+.abejita2{
+    position: absolute;
+    margin-left: 500px;
+    z-index: 100;
+    
+    width: 200px;
+    animation-name: abejita2;
+    animation-duration: 3s;
+    animation-iteration-count: infinite;
+}
+.abejita3{
+    position: absolute;
+    z-index: 100;
+    margin-top: -100px;
+    margin-left: -150px;
+    width: 150px;
+    animation-name: abejita3;
+    animation-duration: 3s;
+    animation-iteration-count: infinite;
+}
+.abejita4{
+    position: absolute;
+    z-index: 100;
+    margin-top: 700px;
+    width: 200px;
+    animation-name: abejita4;
+    animation-duration: 3s;
+    animation-iteration-count: infinite;
+}
+.abejita5{
+    position: absolute;
+    z-index: 100;
+    margin-top: 100px;
+    width: 200px;
+    animation-name: abejita5;
+    animation-duration: 3s;
+    animation-iteration-count: infinite;
+}
+.abejita6{
+    position: absolute;
+    z-index: 100;
+    margin-top: 100px;
+    width: 200px;
+    animation-name: abejita6;
+    animation-duration: 3s;
+    animation-iteration-count: infinite;
+}
+.abejita7{
+    position: absolute;
+    z-index: 100;
+    margin-top: 100px;
+    width: 200px;
+    animation-name: abejita7;
+    animation-duration: 3s;
+    animation-iteration-count: infinite;
+}
+.abejita8{
+    position: absolute;
+    z-index: 100;
+    margin-top: 100px;
+    width: 200px;
+    animation-name: abejita8;
+    animation-duration: 3s;
+    animation-iteration-count: infinite;
+}
+.abejita9{
+    position: absolute;
+    z-index: 100;
+    margin-top: 100px;
+    width: 200px;
+    animation-name: abejita9;
+    animation-duration: 3s;
+    animation-iteration-count: infinite;
+}
+.abejita10{
+    position: absolute;
+    z-index: 100;
+    margin-top: 100px;
+    width: 200px;
+    animation-name: abejita9;
+    animation-duration: 3s;
+    animation-iteration-count: infinite;
+}
+  
+@keyframes abejita {
+    0% {
+        transform: translate(0, 0);
+      }
+      12.5% {
+        transform: translate(50%, 0);
+      }
+      25% {
+        transform: translate(100%, 0);
+      }
+      37.5% {
+        transform: translate(100%, 50%);
+      }
+      50% {
+        transform: translate(100%, 100%);
+      }
+      62.5% {
+        transform: translate(50%, 100%);
+      }
+      75% {
+        transform: translate(0, 100%);
+      }
+      87.5% {
+        transform: translate(0, 50%);
+      }
+      100% {
+        transform: translate(0, 0);
+      }
+      
+  }
+
+@keyframes abejita2 {
+    0% {
+        transform: translate(0, 0) rotate(0) scale(1);
+      }
+      10% {
+        transform: translate(50px, -50px) rotate(-20deg) scale(1.1);
+      }
+      20% {
+        transform: translate(-50px, 50px) rotate(20deg) scale(0.9);
+      }
+      30% {
+        transform: translate(30px, 30px) rotate(-10deg) scale(1.2);
+      }
+      40% {
+        transform: translate(-40px, -30px) rotate(30deg) scale(0.8);
+      }
+      50% {
+        transform: translate(20px, -50px) rotate(-15deg) scale(1.3);
+      }
+      60% {
+        transform: translate(-30px, 20px) rotate(25deg) scale(0.7);
+      }
+      70% {
+        transform: translate(10px, 30px) rotate(-5deg) scale(1.4);
+      }
+      80% {
+        transform: translate(-20px, -20px) rotate(15deg) scale(0.6);
+      }
+      90% {
+        transform: translate(5px, -30px) rotate(-30deg) scale(1.5);
+      }
+      100% {
+        transform: translate(-10px, 10px) rotate(10deg) scale(0.5);
+      }
+    }
+    
+
+@keyframes abejita3 {
+    0% {
+        left: 0;
+        top: 50%;
+      }
+      25% {
+        left: 25%;
+        top: 75%;
+      }
+      50% {
+        left: 50%;
+        top: 50%;
+      }
+      75% {
+        left: 75%;
+        top: 25%;
+      }
+      85% {
+        left: 75%;
+        top: 80%;
+      }
+      90% {
+        left: 75%;
+        top: 25%;
+      }
+      100% {
+        left: 0%;
+        top: 50%;
+      }
+    }
+    
+
+@keyframes abejita4 {
+    0% {
+        transform: translateX(0);
+      }
+      70% {
+        transform: translateX(900px);
+      }
+      80%{
+        transform: translateY(-200px);
+      }
+      100% {
+        transform: translateX(0);
+      }
+    }
+    
+
+@keyframes abejita5 {
+    0% {
+        transform: rotate(0deg);
+      }
+      100% {
+        transform: rotate(360deg);
+      }
+    }
+    
+
+@keyframes abejita6 {
+    0% {
+        transform: translate(0, 0);
+      }
+      50% {
+        transform: translate(
+          calc(100% - 60px),
+          calc(100% - 60px)
+        );
+      }
+      100% {
+        transform: translate(
+          calc(100% - 500px),
+          calc(100% - 500px)
+        );
+      }
+    }
+    
+
+@keyframes abejita7 {
+    0% {
+        transform: translate(0, 0);
+      }
+      50% {
+        transform: translate(
+          calc(100% - 60px),
+          calc(100% - 60px)
+        );
+      }
+      100% {
+        transform: translate(
+          calc(100% - 500px),
+          calc(100% - 500px)
+        );
+      }
+    }
+    
+
+@keyframes abejita8 {
+    0% {
+        transform: translate(0, 0);
+      }
+      50% {
+        transform: translate(
+          calc(100% - 60px),
+          calc(100% - 60px)
+        );
+      }
+      100% {
+        transform: translate(
+          calc(100% - 500px),
+          calc(100% - 500px)
+        );
+      }
+    }
+    
+
+@keyframes abejita9 {
+    0% {
+        transform: translate(0, 0);
+      }
+      50% {
+        transform: translate(
+          calc(100% - 60px),
+          calc(100% - 60px)
+        );
+      }
+      100% {
+        transform: translate(
+          calc(100% - 500px),
+          calc(100% - 500px)
+        );
+      }
+    }
+    
+
+@keyframes abejita10 {
+    0% {
+        transform: translate(0, 0);
+      }
+      50% {
+        transform: translate(
+          calc(100% - 60px),
+          calc(100% - 60px)
+        );
+      }
+      100% {
+        transform: translate(
+          calc(100% - 500px),
+          calc(100% - 500px)
+        );
+      }
+    }
+    
